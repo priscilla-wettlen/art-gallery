@@ -54,3 +54,94 @@
     padding-top: 100px;
     color: variables.$text;
 }
+
+.container {
+    font-family: variables.$main-font;
+    color: variables.$text;
+    letter-spacing: 2px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.container-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-news-1 {
+    position: relative;
+    
+}
+
+.container-news-2 {
+    position: relative;
+    
+}
+
+.container-news-3 {
+    position: relative;
+    
+}
+
+.overlay-1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 200px;
+  text-align: center;
+}
+
+.overlay-2 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 200px;
+    text-align: center;
+  }
+
+  .overlay-3 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 200px;
+    text-align: center;
+  }
+
+.container-news-1:hover .overlay-1 {
+    opacity: 1;
+  }
+
+.container-news-2:hover .overlay-2 {
+    opacity: 1;
+  }
+
+.container-news-3:hover .overlay-3 {
+    opacity: 1;
+  }
