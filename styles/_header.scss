@@ -1,0 +1,28 @@
+.parallax-header {
+    background-image: url(/images/hippos_cut.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: variables.$heading-font;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 100px;
+    color: variables.$background;
+}
+
+.subtitle {
+    font-family: variables.$main-font;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: variables.$background;
+}

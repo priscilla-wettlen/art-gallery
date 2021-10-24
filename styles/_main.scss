@@ -1,0 +1,56 @@
+.parallax {
+    background-image: url(/images/news_cut.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url(/images/koonts_cut.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news {
+    font-family: variables.$heading-font;
+    font-style: italic;
+    font-size: 180px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 100px;
+    color: variables.$text;
+}
+
+.about {
+    font-family: variables.$heading-font;
+    font-style: italic;
+    font-size: 180px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 100px;
+    color: variables.$text;
+}
+
+.parallax-3 {
+    background-image: url(/images/contact_cut.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    font-family: variables.$heading-font;
+    font-style: italic;
+    font-size: 180px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 100px;
+    color: variables.$text;
+}
