@@ -98,8 +98,14 @@
   opacity:0;
   color: black;
   font-size: 20px;
-  padding: 200px;
+  padding: 100px;
   text-align: center;
+  font-family: variables.$heading-font;
+  &-content {
+      font-family: variables.$main-font;
+      font-size: 16px;
+      letter-spacing: 2px;
+  }
 }
 
 .overlay-2 {
@@ -114,8 +120,14 @@
     opacity:0;
     color: black;
     font-size: 20px;
-    padding: 200px;
+    padding: 100px;
     text-align: center;
+    font-family: variables.$heading-font;
+    &-content {
+        font-family: variables.$main-font;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
   }
 
   .overlay-3 {
@@ -130,8 +142,14 @@
     opacity:0;
     color: black;
     font-size: 20px;
-    padding: 200px;
+    padding: 100px;
     text-align: center;
+    font-family: variables.$heading-font;
+    &-content {
+        font-family: variables.$main-font;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
   }
 
 .container-news-1:hover .overlay-1 {
@@ -145,3 +163,12 @@
 .container-news-3:hover .overlay-3 {
     opacity: 1;
   }
+
+.read-more {
+    color: black;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+}
