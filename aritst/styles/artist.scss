@@ -1,0 +1,181 @@
+@use 'myColor';
+@use 'myFonts';
+@use 'variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    max-width: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-color:myColor.$floralWhite;
+    
+      
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 180px;
+    font-family: myFonts.$rokkitt;
+    background-image: url(../images/pawel-czerwinski-2PN18U8CKi0-unsplash.jpg);
+    background-size: cover;
+}
+    
+h1 {
+    background-color: myColor.$primaryColor;
+    justify-content: space-around;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 110px;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px;
+}
+
+//end header
+//header media
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) and (orientation: landscape) {
+    h1 {
+        font-size: 58px;
+    }
+}
+
+
+
+//content
+p {
+    justify-content: space-around;
+    font-family: myFonts.$lato;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+.main-content{
+    min-height: 80vh;
+    background: #dbdfe5;
+    background-image: url(../images/matheus-viana-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.col-12 .sidebar-content{
+    min-height: 40vh;
+    margin-bottom: 30px;
+    background-image: url(../images/Exhibition.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.col-6 .sidebar-content {
+    min-height: 30vh;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 30px;
+    background-color:#b4bac0;
+    padding: 12px;
+}
+
+//media
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .main-content {
+        min-height: 393px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {    
+    .col-12 .sidebar-content {
+        padding: 0px;
+        margin: 1px;
+    }
+    .col-6 .sidebar-content {
+        margin: 1px;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+   .col-6 .sidebar-content {
+       margin-left: 3px;
+       line-height: 24px;
+       padding: 2px;
+       text-align: center;
+       overflow: hidden;
+   }
+   .col-12 .sidebar-content {
+       margin-left: 3px;
+       object-fit: initial;
+   }
+}
+
+//content end
+
+
+//artists zone
+
+hr.solid {
+    border-top: 5px;
+    color: myColor.$secondaryColor;
+   
+}
+
+.title {
+    font-family: myFonts.$lato;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.row {
+    display: flex;
+    margin:8px;
+    img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px 10px;
+   }
+.caption p {
+    font-family: myFonts.$rokkitt;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    }
+}
+//media
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .caption p {
+        font-size: 38px;
+    }
+}
+
