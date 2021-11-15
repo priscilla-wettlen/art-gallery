@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"news.css"}
+{"version":3,"sources":["news.scss","_fonts-styles.scss","news.css"],"names":[],"mappings":"AACA;EACI,yBCFQ;EDGR,iBAAA;EACA,YAAA;EACA,iBAAA;EACA,oBAAA;AEAJ;;AFEA;EACI,iBAAA;EACA,WAAA;EACA,iBAAA;EACA,+CAAA;EACA,qBAAA;EACA,4BAAA;AECJ;;AFCA;EACI,gBAAA;EACA,6BCba;EDcb,cCjBS;EDkBT,eAAA;EACA,aAAA;AEEJ;;AFAA;EACI,yBCvBQ;EDwBR,gBAAA;AEGJ;;AFDA;EACI,6BCtBY;EDuBZ,eAAA;EACA,aAAA;AEIJ;;AFFA;EACI,gBAAA;EACA,WAAA;EACA,iBAAA;EACA,iBAAA;AEKJ","file":"news.css"}
