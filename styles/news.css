@@ -1,2 +1,43 @@
+body {
+  background-color: #F6EEEE;
+  max-width: 1800px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.heading {
+  max-width: 1800px;
+  width: 100%;
+  min-height: 300px;
+  background-image: url(../images/kahlo-eyes.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.news {
+  max-width: 100px;
+  font-family: "Rokkitt", serif;
+  color: #FFFFFF;
+  font-size: 46px;
+  padding: 20px;
+}
+
+.row {
+  background-color: #C4C4C4;
+  margin-top: 50px;
+}
+
+.paragraph {
+  font-family: "Rokkitt", serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.img {
+  max-width: 500px;
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover;
+}
 /*# sourceMappingURL=news.css.map */
