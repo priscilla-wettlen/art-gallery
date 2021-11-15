@@ -1,0 +1,26 @@
+.footer{
+    font-family: variables.$heading-font;
+    font-size: 22px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+i {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    &:hover {
+        text-decoration: none;
+        color: variables.$background;
+    }
+}
