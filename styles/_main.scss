@@ -12,9 +12,9 @@
 }
 
 .img-fluid-description {
-    background-color:  #F7EEEE;
+    background-color:  fonts-styles.$color-one;
     padding: 15px;
-    font-family: variables.$main-font;
+    font-family: fonts-styles.$myfont-pgraph;
     line-height: 16px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .news_title {
-    font-family: variables.$heading-font;
+    font-family: fonts-styles.$myfont-heading;
     font-size: 48px;
     font-style: italic;
     text-decoration: underline;
@@ -34,7 +34,7 @@
 }
 
 .about_title {
-    font-family: variables.$heading-font;
+    font-family: fonts-styles.$myfont-heading;
     font-size: 48px;
     font-style: italic;
     text-decoration: underline;
@@ -49,7 +49,7 @@
 }
 
 .contact_title {
-    font-family: variables.$heading-font;
+    font-family: fonts-styles.$myfont-heading;
     font-size: 48px;
     font-style: italic;
     text-decoration: underline;
