@@ -1,39 +1,50 @@
 @import "fonts-styles";
 
 body {
-    background-color: $color-one;
+    background-color: #F6EEEE;
     max-width: 1800px;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-.heading {
+  }
+  
+  .heading {
     max-width: 1800px;
     width: 100%;
     min-height: 300px;
     background-image: url(../images/kahlo-eyes.jpg);
-    background-size: 100%; 
+    background-size: 100%;
     background-repeat: no-repeat;
-}
-.news {
+  }
+  
+  .news {
     max-width: 100px;
-    font-family: $myfont-heading;
-    color: $color-three;
+    font-family: $myfont-pgraph;
+    color: #FFFFFF;
     font-size: 46px;
     padding: 20px;
-}
-.row {
-    background-color: $color-two;
-    margin-top: 50px;
-}
-.paragraph {
+  }
+  
+  .row {
+    border: 5px solid #C4C4C4;
+    padding: 20px;
+  }
+  
+  .paragraph {
     font-family: $myfont-pgraph;
     font-size: 20px;
     padding: 10px;
-}
-.img {
+  }
+  
+  .img {
     max-width: 500px;
     width: 100%;
     min-height: 200px;
     object-fit: cover;
-}
+  }
+  .headings {
+    font-family: $myfont-heading;
+    font-size: 46px;
+    margin-top: 50px;
+    text-decoration: underline;
+  }
