@@ -2,13 +2,16 @@
 
 @import 'header';
 @import 'main';
+@import 'footer';
 
 
 
 
 body {
-    background: url(/images/metalcubes_background.png) 50% fixed;
+    background: url(/images/concrete_bg.jpg) 50% fixed;
     background-repeat: no-repeat;
     background-size: 2000px auto;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
