@@ -1,4 +1,5 @@
-@import "fonts-styles";
+@use 'fonts-styles';
+
 .header {
    max-width: 70rem;
    width: 100%;
@@ -10,18 +11,21 @@
    margin-bottom: 3rem;
    padding-left: 2rem;
 }
+
 .list-nav {
    list-style-type: none;
    text-decoration: none;
    display: inline;
-   font-family: $myfont-pgraph;
+   font-family: fonts-styles.$myfont-pgraph;
    color: $color-three;
    margin-right: 1rem;
 }
+
 .list-nav:hover {
-  color: $color-four;
+  color: fonts-styles.$color-four;
 }
+
 .nav__sunds{
-   font-family: $myfont-heading;
+   font-family: fonts-styles.$myfont-heading;
    font-size: 2rem;
 }
