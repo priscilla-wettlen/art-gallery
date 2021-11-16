@@ -1,13 +1,44 @@
+.header {
+  max-width: 113rem;
+  width: 100%;
+  min-height: 5rem;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.list-nav {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.list-nav:hover {
+  color: #000000;
+}
+
+.nav__sunds {
+  font-family: "Rokkitt", serif;
+  font-size: 3rem;
+}
+
 body {
-  background-color: #F6EEEE;
-  max-width: 1800px;
+  background-color: #E0CDBE;
+  max-width: 113rem;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .heading {
-  max-width: 1800px;
+  max-width: 113rem;
   width: 100%;
   min-height: 300px;
   background-image: url(../images/kahlo-eyes.jpg);
@@ -16,11 +47,11 @@ body {
 }
 
 .news {
-  max-width: 100px;
-  font-family: "Lato", sans-serif;
+  max-width: 7rem;
+  font-family: "Rokkitt", serif;
   color: #FFFFFF;
-  font-size: 46px;
-  padding: 20px;
+  font-size: 30px;
+  padding: 1rem;
 }
 
 .row {
@@ -38,8 +69,7 @@ body {
   max-width: 500px;
   width: 100%;
   min-height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .headings {
@@ -48,3 +78,4 @@ body {
   margin-top: 50px;
   text-decoration: underline;
 }
+/*# sourceMappingURL=news.css.map */
