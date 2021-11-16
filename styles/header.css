@@ -1,0 +1,30 @@
+.header {
+  max-width: 70rem;
+  width: 100%;
+  min-height: 5rem;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.list-nav {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  margin-right: 1rem;
+}
+
+.list-nav:hover {
+  color: #000000;
+}
+
+.nav__sunds {
+  font-family: "Rokkitt", serif;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=header.css.map */
