@@ -38,7 +38,8 @@ body {
   max-width: 500px;
   width: 100%;
   min-height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .headings {
@@ -47,4 +48,3 @@ body {
   margin-top: 50px;
   text-decoration: underline;
 }
-/*# sourceMappingURL=news.css.map */
