@@ -1,0 +1,31 @@
+@use 'fonts-styles';
+
+.header {
+   max-width: 70rem;
+   width: 100%;
+   min-height: 5rem;
+   background-color: #C4C4C4;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-bottom: 3rem;
+   padding-left: 2rem;
+}
+
+.list-nav {
+   list-style-type: none;
+   text-decoration: none;
+   display: inline;
+   font-family: fonts-styles.$myfont-pgraph;
+   color: $color-three;
+   margin-right: 1rem;
+}
+
+.list-nav:hover {
+  color: fonts-styles.$color-four;
+}
+
+.nav__sunds{
+   font-family: fonts-styles.$myfont-heading;
+   font-size: 2rem;
+}
