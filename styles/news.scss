@@ -18,15 +18,14 @@ body {
     background-image: url(../images/kahlo-eyes.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 1rem;
   }
   
   .news {
     max-width: 7rem;
     font-family: fonts-styles.$myfont-pgraph;
     color: #FFFFFF;
-    font-size: 36px;
-    padding: 1 rem;
+    font-size: 34px;
+    margin-left: 1rem
   }
   
   .row {
@@ -36,8 +35,8 @@ body {
   
   .paragraph {
     font-family: fonts-styles.$myfont-pgraph;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 1rem;
   }
   
   .img {
