@@ -1,6 +1,37 @@
+.header {
+  max-width: 70rem;
+  width: 100%;
+  min-height: 5rem;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.list-nav {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  margin-right: 1rem;
+  font-size: 24px;
+}
+
+.list-nav:hover {
+  color: #000000;
+}
+
+.nav__sunds {
+  font-family: "Rokkitt", serif;
+  font-size: 36px;
+}
+
 body {
   background-color: #F6EEEE;
-  max-width: 1800px;
+  max-width: 70rem;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -38,8 +69,7 @@ body {
   max-width: 500px;
   width: 100%;
   min-height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .headings {
@@ -48,3 +78,4 @@ body {
   margin-top: 50px;
   text-decoration: underline;
 }
+/*# sourceMappingURL=news.css.map */
