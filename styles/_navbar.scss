@@ -1,27 +1,36 @@
 @use 'fonts-styles';
 
 .header {
-    max-width: 70rem;
     width: 100%;
-    min-height: 5rem;
+    min-height: 3rem;
     background-color: fonts-styles.$color-two;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.nav__sunds {
+    margin-top: 1rem;
+    font-family: fonts-styles.$myfont-heading;
+    font-size: 36px;
+}
+
 .list-nav {
     list-style-type: none;
-    text-decoration: none;
     display: inline;
     font-family: fonts-styles.$myfont-pgraph;
     color: fonts-styles.$color-three;
     margin-right: 1rem;
     font-size: 24px;
 }
-.list-nav:hover {
-    color: fonts-styles.$color-four;
+
+a {
+    text-decoration: none;
+    &:hover {
+            color: fonts-styles.$color-four;
+    }
 }
-.nav__sunds {
-    font-family: fonts-styles.$myfont-heading;
-    font-size: 36px;
-}
+
+
+
+
