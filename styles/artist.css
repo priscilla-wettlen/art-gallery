@@ -1,1 +1,217 @@
-.footer{font-family:"Rokkitt",serif;font-size:1rem;background-color:#C4C4C4;color:black;width:auto;height:auto;margin:0px;margin-top:5.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:2rem;letter-spacing:2px;text-align:center}i{margin:0.5rem;margin-top:1.5rem;font-size:1.5rem}a{color:black}a:hover{text-decoration:none;color:#E0CDBE;-webkit-transition:ease-in-out 0.2s;transition:ease-in-out 0.2s}.headline{font-family:"Rokkitt",serif;font-style:normal;font-size:1.5rem}.header{width:100%;min-height:4rem;background-color:#C4C4C4;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}.nav__sunds{margin-top:1rem;font-family:"Rokkitt",serif;font-size:2rem}.list-nav{list-style-type:none;display:inline;font-family:"Lato",sans-serif;color:#FFFFFF;margin-right:1rem;font-size:1.5rem}a{text-decoration:none}a:hover{color:#000000;-webkit-transition:ease-in-out 0.2s;transition:ease-in-out 0.2s}*{-webkit-box-sizing:border-box;box-sizing:border-box}body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:0;margin:auto;max-width:auto;width:100%;min-height:100vh;background-color:#E0CDBE}h1{background-color:#F6EEEE;-ms-flex-pack:distribute;justify-content:space-around;text-align:right;margin-right:25px;margin-top:110px;font-size:38px;font-weight:700;font-style:italic;padding:10px}@media only screen and (min-width:768px) and (max-width:1023px){h1{font-size:48px}}@media only screen and (min-width:1024px) and (max-width:1440px) and (orientation:landscape){h1{font-size:58px}}p{-ms-flex-pack:distribute;justify-content:space-around;font-family:"Lato",sans-serif;font-style:italic;font-size:16px;font-weight:600;text-align:center;line-height:26px}.main-content{min-height:80vh;background:#dbdfe5;background-image:url(/images/matheus-viana-unsplash.jpg);background-repeat:no-repeat;background-size:cover;max-width:100%;height:auto}.col-12 .sidebar-content{min-height:40vh;margin-bottom:30px;background-image:url(../images/Exhibition.jpg);background-repeat:no-repeat;background-size:cover;max-width:100%;height:auto;margin-left:30px;padding:10px}.col-6 .sidebar-content{min-height:30vh;line-height:26px;text-align:left;font-weight:600;font-size:16px;font-style:italic;margin-left:30px;background-color:#b4bac0;padding:12px}@media only screen and (min-width:320px) and (max-width:375px){.main-content{min-height:393px}}@media only screen and (min-width:320px) and (max-width:767px){.col-12 .sidebar-content{padding:0px;margin:1px}.col-6 .sidebar-content{margin:1px}}@media only screen and (min-width:768px){.col-6 .sidebar-content{margin-left:3px;line-height:24px;padding:2px;text-align:center;overflow:hidden}.col-12 .sidebar-content{margin-left:3px;-o-object-fit:initial;object-fit:initial}}hr.solid{border-top:5px;color:#CC7F2A}.title{font-family:"Lato",sans-serif;font-size:24px;font-weight:600;margin-top:50px}.row{display:-webkit-box;display:-ms-flexbox;display:flex;margin:8px}.row img{max-width:100%;height:auto;margin-top:20px 10px}.row .caption p{font-family:"Rokkitt",serif;font-size:18px;font-style:normal;color:#000000;text-decoration:none;text-align:left;padding:5px}@media only screen and (min-width:1024px) and (max-width:1440px){.caption p{font-size:38px}}
+.footer {
+  font-family: "Rokkitt", serif;
+  font-size: 1rem;
+  background-color: #C4C4C4;
+  color: black;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  margin-top: 5.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+i {
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #E0CDBE;
+  transition: ease-in-out 0.2s;
+}
+
+.headline {
+  font-family: "Rokkitt", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  min-height: 4rem;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav__sunds {
+  margin-top: 1rem;
+  font-family: "Rokkitt", serif;
+  font-size: 2rem;
+}
+
+.list-nav {
+  list-style-type: none;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  transition: ease-in-out 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: auto;
+  max-width: auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #E0CDBE;
+}
+
+h1 {
+  background-color: #F6EEEE;
+  justify-content: space-around;
+  text-align: right;
+  margin-right: 25px;
+  margin-top: 110px;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) and (orientation: landscape) {
+  h1 {
+    font-size: 58px;
+  }
+}
+p {
+  justify-content: space-around;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 26px;
+}
+
+.main-content {
+  min-height: 80vh;
+  background: #dbdfe5;
+  background-image: url(/images/matheus-viana-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.col-12 .sidebar-content {
+  min-height: 40vh;
+  margin-bottom: 30px;
+  background-image: url(../images/Exhibition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.col-6 .sidebar-content {
+  min-height: 30vh;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: italic;
+  margin-left: 30px;
+  background-color: #b4bac0;
+  padding: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .main-content {
+    min-height: 393px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .col-12 .sidebar-content {
+    padding: 0px;
+    margin: 1px;
+  }
+
+  .col-6 .sidebar-content {
+    margin: 1px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-6 .sidebar-content {
+    margin-left: 3px;
+    line-height: 24px;
+    padding: 2px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .col-12 .sidebar-content {
+    margin-left: 3px;
+    object-fit: initial;
+  }
+}
+hr.solid {
+  border-top: 5px;
+  color: #CC7F2A;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  margin: 8px;
+}
+.row img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px 10px;
+}
+.row .caption p {
+  font-family: "Rokkitt", serif;
+  font-size: 18px;
+  font-style: normal;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .caption p {
+    font-size: 38px;
+  }
+}
+/*# sourceMappingURL=artist.css.map */
