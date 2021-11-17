@@ -145,7 +145,7 @@ hr.solid {
 }
 
 .title {
-    font-family:fonts-styles.$myfont-pgraph;
+    font-family:fonts-styles.$myfont-heading;
     font-size: 24px;
     font-weight: 600;
     margin-top: 50px;
@@ -155,12 +155,13 @@ hr.solid {
 .row {
     display: flex;
     margin:8px;
-    img {
+}
+img {
     max-width: 100%;
     height: auto;
     margin-top: 20px 10px;
    }
-.caption p {
+.caption {
     font-family:fonts-styles.$myfont-heading;
     font-size: 18px;
     font-style: normal;
@@ -169,11 +170,15 @@ hr.solid {
     text-align: left;
     padding: 5px;
     }
-}
+
 //media
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-    .caption p {
+    .caption{
         font-size: 38px;
     }
 }
 
+img:hover {
+    transform: scale(1.5, 1.5);
+    transform-origin: left;
+}
