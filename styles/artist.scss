@@ -1,4 +1,5 @@
 @use 'fonts-styles';
+
 @import 'footer';
 @import 'navbar';
 
@@ -19,15 +20,12 @@ body {
       
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    height: 180px;
-    font-family: fonts-styles.$myfont-heading;
-    background-image: url(../images/pawel-czerwinski-2PN18U8CKi0-unsplash.jpg);
-    background-size: cover;
-}
+// .header {
+//     max-width: 100%;
+//     height: 3rem;
+//     font-family: fonts-styles.$myfont-heading;
+    
+// }
     
 h1 {
     background-color: #F6EEEE;
@@ -71,7 +69,7 @@ p {
 .main-content{
     min-height: 80vh;
     background: #dbdfe5;
-    background-image: url(../images/matheus-viana-unsplash.jpg);
+    background-image: url(/images/matheus-viana-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;

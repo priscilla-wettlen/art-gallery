@@ -28,9 +28,12 @@ a {
     &:hover {
         text-decoration: none;
         color: fonts-styles.$color-one;
+        transition: ease-in-out 0.2s;
     }
 }
 
 .headline {
+    font-family: fonts-styles.$myfont-heading;
+    font-style: normal;
     font-size: 1.5rem;
 }
