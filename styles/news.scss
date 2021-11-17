@@ -1,8 +1,9 @@
 @import "fonts-styles";
 @import "navbar";
 
+
 body {
-    background-color: #F6EEEE;
+    background-color: $color-one;
     max-width: 70rem;
     margin: auto;
     padding-top: 20px;
@@ -10,7 +11,7 @@ body {
   }
   
   .heading {
-    max-width: 1800px;
+    max-width: 70rem;
     width: 100%;
     min-height: 300px;
     background-image: url(../images/kahlo-eyes.jpg);
@@ -19,11 +20,11 @@ body {
   }
   
   .news {
-    max-width: 100px;
+    max-width: 7rem;
     font-family: $myfont-pgraph;
     color: #FFFFFF;
-    font-size: 46px;
-    padding: 20px;
+    font-size: 36px;
+    padding: 1 rem;
   }
   
   .row {
@@ -46,6 +47,6 @@ body {
   .headings {
     font-family: $myfont-heading;
     font-size: 46px;
-    margin-top: 50px;
+    margin-top: 2rem;
     text-decoration: underline;
   }

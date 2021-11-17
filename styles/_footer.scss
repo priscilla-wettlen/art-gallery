@@ -1,3 +1,5 @@
+
+
 .footer{
     font-family: fonts-styles.$myfont-heading;
     font-size: 16px;
@@ -25,7 +27,7 @@ a {
     color: black;
     &:hover {
         text-decoration: none;
-        color: fonts-styles.$color-one;
+        color: $color-one;
     }
 }
 
