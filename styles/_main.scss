@@ -1,5 +1,8 @@
+@use 'fonts-styles';
+
 .container {
     width: 100%;
+    font-family: fonts-styles.$myfont-pgraph;
 }
 
 .container-fluid {
