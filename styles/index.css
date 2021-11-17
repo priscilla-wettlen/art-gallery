@@ -2,7 +2,7 @@
   font-family: "Rokkitt", serif;
   font-size: 120px;
   font-weight: 500;
-  color: #F6EEEE;
+  color: #E0CDBE;
   width: 75%;
   letter-spacing: 2px;
   line-height: 110px;
@@ -30,7 +30,7 @@
 }
 
 .img-fluid-description {
-  background-color: #F6EEEE;
+  background-color: #E0CDBE;
   padding: 15px;
   font-family: "Lato", sans-serif;
   line-height: 16px;
@@ -115,7 +115,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #F6EEEE;
+  color: #E0CDBE;
 }
 
 .headline {
