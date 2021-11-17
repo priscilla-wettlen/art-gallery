@@ -1,6 +1,4 @@
-@import 'variables';
-@import 'fonts-styles';
-
+@use 'fonts-styles';
 @import 'footer';
 
 * {
@@ -15,7 +13,7 @@ body {
     max-width: auto;
     width: 100%;
     min-height: 100vh;
-    background-color:fonts-styles.$color-one;
+    background-color: fonts-styles.$color-one;
     
       
 }
@@ -60,7 +58,7 @@ h1 {
 //content
 p {
     justify-content: space-around;
-    font-family:fonts-styles.$myfont-pgraph;
+    font-family: fonts-styles.$myfont-pgraph;
     font-style: italic;
     font-size: 16px;
     font-weight: 600;

@@ -1,9 +1,9 @@
-@import "fonts-styles";
+@use "fonts-styles";
 @import "navbar";
 
 
 body {
-    background-color: $color-one;
+    background-color: fonts-styles.$color-one;
     max-width: 70rem;
     margin: auto;
     padding-top: 20px;
@@ -21,7 +21,7 @@ body {
   
   .news {
     max-width: 7rem;
-    font-family: $myfont-pgraph;
+    font-family: fonts-styles.$myfont-pgraph;
     color: #FFFFFF;
     font-size: 36px;
     padding: 1 rem;
@@ -33,7 +33,7 @@ body {
   }
   
   .paragraph {
-    font-family: $myfont-pgraph;
+    font-family: fonts-styles.$myfont-pgraph;
     font-size: 20px;
     padding: 10px;
   }
@@ -45,7 +45,7 @@ body {
     object-fit: cover;
   }
   .headings {
-    font-family: $myfont-heading;
+    font-family: fonts-styles.$myfont-heading;
     font-size: 46px;
     margin-top: 2rem;
     text-decoration: underline;
