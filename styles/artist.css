@@ -1,12 +1,12 @@
 .footer {
   font-family: "Rokkitt", serif;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #C4C4C4;
   color: black;
   width: auto;
   height: auto;
   margin: 0px;
-  margin-top: 100px;
+  margin-top: 5.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,15 +17,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 20px;
+  padding: 2rem;
   letter-spacing: 2px;
   text-align: center;
 }
 
 i {
-  margin: 10px;
-  margin-top: 20px;
-  font-size: 22px;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .headline {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 * {

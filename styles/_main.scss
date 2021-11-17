@@ -5,7 +5,7 @@
 .container-fluid {
     background-color: fonts-styles.$color-one;
     letter-spacing: 2px;
-    line-height: 24px;
+    line-height: 2rem;
 
 
     
@@ -13,57 +13,57 @@
 
 .img-fluid-description {
     background-color:  fonts-styles.$color-one;
-    padding: 15px;
+    padding: 1rem;
     font-family: fonts-styles.$myfont-pgraph;
-    line-height: 16px;
+    line-height: 1rem;
 }
 
 .news {
-    margin-top: 80px;
+    margin-top: 4rem;
     
 }
 
 .news_title {
     font-family: fonts-styles.$myfont-heading;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: italic;
     text-decoration: underline;
 }
 
 .about {
-    margin-top: 80px;
+    margin-top: 4rem;
 }
 
 .about_title {
     font-family: fonts-styles.$myfont-heading;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: italic;
     text-decoration: underline;
 }
 
 .about_content {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .contact {
-    margin-top: 80px;
+    margin-top: 4rem;
 }
 
 .contact_title {
     font-family: fonts-styles.$myfont-heading;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: italic;
     text-decoration: underline;
 }
 
 .gallery_contact {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .read_more {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 1rem;
     &:hover {
         text-decoration: underline;
         color: black;
