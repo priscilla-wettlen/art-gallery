@@ -1,0 +1,59 @@
+@use "fonts-styles";
+@import "navbar";
+@import 'footer';
+
+
+body {
+    background-color: fonts-styles.$color-one;
+    // max-width: 70rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    // padding-bottom: 20px;
+  }
+  
+  .heading {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(../images/marina-table.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .marina-heading {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .news {
+    max-width: 7rem;
+    font-family: fonts-styles.$myfont-pgraph;
+    color: #FFFFFF;
+    font-size: 34px;
+    margin-left: 1rem
+  }
+  .presentation__text {
+      display: flex;
+      justify-content: center;
+  }
+  .row {
+    
+  }
+  
+  .paragraph {
+    font-family: fonts-styles.$myfont-pgraph;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  
+  .img {
+    max-width: 500px;
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+  }
+  .headings {
+    font-family: fonts-styles.$myfont-heading;
+    font-size: 46px;
+    margin-top: 2rem;
+    text-decoration: underline;
+  }
